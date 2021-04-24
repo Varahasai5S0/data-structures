@@ -126,7 +126,7 @@ def scoreboard2(g):
     global score
     global target
     s="Your runs for this turn "+str(g)
-    opp1=rand.randrange(6,100000)%6+1
+    opp1=rand.randint(6,100000)%6+1
     y="Opponent for this turn "+str(opp1)  
     global ms1
     ms1=tk.Label(f,text=s,width=20,fg="red",font=20,bd=4)
